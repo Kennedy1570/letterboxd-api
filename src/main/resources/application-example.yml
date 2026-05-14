@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: letterboxd-api
+  datasource:
+    url: jdbc:postgresql://localhost:5432/letterboxd
+    username: YOUR_DB_USERNAME
+    password: YOUR_DB_PASSWORD
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  port: 8080
