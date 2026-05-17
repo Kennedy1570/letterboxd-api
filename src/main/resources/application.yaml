@@ -15,3 +15,6 @@ spring:
 
 server:
   port: 8080
+tmdb:
+  api:
+    key: c8c485d9d2a00f1532fb12d7140606f2
